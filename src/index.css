@@ -10,6 +10,8 @@
   --color-font-white: #fff;
   --color-font-blue: #3c9af0;
   --color-font-gray: #5e5e5e;
+
+  --color-border: #3c9af0;
 }
 
 a,
@@ -28,4 +30,30 @@ a:hover {
 html,
 body {
   background-color: var(--color-bg-primary);
+}
+
+.ds-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.ds-card-container h2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  color: var(--color-font-gray);
+}
+
+.ds-comments-section-container {
+  height: 692px;
+  background-color: var(--color-bg-secondary);
+}
+
+@media (min-width: 320px) {
+  .ds-card-container h2 {
+    font-size: 32px;
+  }
 }

@@ -4,7 +4,9 @@ export default function Header() {
   return (
     <>
       <header>
-        <div className="ds-container">DSCarrosTop</div>
+        <div className="ds-container">
+          <h1>DSCarrosTop</h1>
+        </div>
       </header>
     </>
   );

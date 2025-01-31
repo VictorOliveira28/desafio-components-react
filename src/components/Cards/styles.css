@@ -1,0 +1,46 @@
+.ds-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  height: 248px;
+  width: 280px;
+  margin-bottom: 20px;
+}
+
+.ds-card img {
+  width: 260px;
+  height: 194.46px;
+}
+
+.ds-card p {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Poppins";
+  text-align: center;
+  color: var(--color-font-gray);
+  position: relative;
+  bottom: -25px;
+}
+
+@media (min-width: 320px) {
+  .ds-card img {
+    width: 391px;
+    height: 292px;
+  }
+}
+
+@media (min-width: 320px) {
+  ds-card p {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 320px) {
+  .ds-card {
+    height: 352px;
+    width: 746px;
+  }
+}
