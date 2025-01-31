@@ -15,6 +15,7 @@ function App() {
             <Cards />
           </div>
         </section>
+
         <section className="ds-comments-section-container">
           <Comments />
         </section>
